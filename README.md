@@ -1,21 +1,9 @@
 # Elixir2rust
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir2rust` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elixir2rust, "~> 0.1.0"}
-  ]
-end
+Just run
+```
+mix run --no-halt
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir2rust](https://hexdocs.pm/elixir2rust).
-
+Rust with Cargo is needed.
+Rust program uses Unix specific funcs, won't compile on Windows.
